@@ -1,5 +1,10 @@
 import streamlit as st
-
+home_page = st.Page(
+    "pages/home.py",
+    title="Home",
+    icon="🏠",
+    default=True
+)
 # Hero Header with Glassmorphism
 st.markdown("""
 <div style="
